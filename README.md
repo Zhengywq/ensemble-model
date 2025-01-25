@@ -23,8 +23,10 @@ Ensure you have Python 3.8+ and the following libraries installed:
 ### Core Libraries
 ```bash
 pip install numpy pandas opencv-python-headless matplotlib imutils pillow
+```
 
 ### Directory Structure
+```bash
 /kaggle
   ├── /input
   │   ├── /shottest
@@ -33,3 +35,4 @@ pip install numpy pandas opencv-python-headless matplotlib imutils pillow
   │   ├── /modelandsthnec         # Pretrained model files
   ├── /working
       ├── /saveoutput             # Directory for saving output
+```
